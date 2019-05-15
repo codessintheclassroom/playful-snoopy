@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
-interface Pet {
-  readonly id: string;
-  name: string;
-  description: string;
-}
+import Pet from "./Pet";
 
 type Props = {
   pet: Pet;
